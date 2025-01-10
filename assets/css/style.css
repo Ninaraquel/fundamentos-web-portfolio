@@ -42,7 +42,7 @@
     --orange-300: #ffb266;
     --orange-400: #ff9933;
     --orange-500: #ff8000;
-    --orange-600: #cc6600;
+    --orange-600: #be6d1d;
     --orange-700: #994d00;
 }
 
@@ -107,8 +107,8 @@ p {
     width: 100%;
     justify-content: space-between;
     padding: 24px;
-    background-color: var(--dark-green);
-    border-bottom: 1px solid var(--light-green);
+    background-color: var(--orange-600);
+    border-bottom: 1px solid var(--orange-600);
 }
 
 #menu li {
@@ -123,7 +123,7 @@ p {
 }
 
 #menu li a:hover {
-    color: var(--gray-200);
+    color: var(--orange-200);
     text-decoration: underline;
 }
 
@@ -167,7 +167,7 @@ footer {
     margin: 0;
     padding: 2rem;
     color: var(--white);
-    background-color: var(--dark-green);
+    background-color: var(--orange-600);
     font-weight: bold;
     text-align: center;
 }
@@ -186,7 +186,7 @@ footer {
 }
 
 .social_icon:hover {
-    filter: brightness(0) saturate(100%) invert(65%) sepia(59%) saturate(2437%) hue-rotate(120deg) brightness(86%) contrast(88%);
+    filter: brightness(0) saturate(100%) invert(65%) sepia(59%) saturate(2437%) hue-rotate(720deg) brightness(86%) contrast(88%);
 }
 
 /*Estilização da Página de Contato*/
@@ -236,8 +236,8 @@ form span {
 form button {
     text-align: center;
     padding: 0.75rem 2rem;
-    background: var(--light-green);
-    border: 1px solid var(--light-green);
+    background: var(--orange-600);
+    border: 1px solid var(--orange-600);
     color: var(--white);
     border-radius: 0.75rem;
     font-weight: 700;
@@ -245,7 +245,7 @@ form button {
 }
 
 form button:hover {
-    background: var(--dark-green);
+    background: var(--orange-500);
 }
 
 /* Estilização do Mapa */
