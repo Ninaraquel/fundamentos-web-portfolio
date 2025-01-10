@@ -5,13 +5,13 @@
     text-decoration: none;
     outline: none;
     font-weight: 400;
-    font-family: sans-serif;
+    font-family:  Neue, serif;
 }
 
 :root {
     --purple-200: #9a7bd1;
     --purple-500: #6b36c8;
-    --purple-800: #441f88;
+    --purple-800: #441c8e;
 
     --black-800: #171717;
 
@@ -19,6 +19,31 @@
     --gray-400: #505861;
 
     --white: #F9F9F9;
+
+    --green-100: #d4f4d7;
+    --green-200: #a9e9af;
+    --green-300: #7fde87;
+    --green-400: #54d35e;
+    --green-500: #2ac836;
+
+    --light-green: #606c38;
+    --dark-green: #283618;
+    --white: #fefae0;
+    --light-brow: #dda15e;
+    --dark-brow: #bc6c25;
+
+    --blue-200: #add6ff;
+    --blue-300: #82c1ff;
+    --blue-400: #57adff;
+    --blue-500: #2b98ff;
+    --blue-700: #185b99;
+
+    --orange-200: #ffcc99;
+    --orange-300: #ffb266;
+    --orange-400: #ff9933;
+    --orange-500: #ff8000;
+    --orange-600: #cc6600;
+    --orange-700: #994d00;
 }
 
 html {
@@ -27,18 +52,18 @@ html {
 }
 
 body {
-    background: var(--gray-200);
+    background: var(--white);
     color: var(--black-800);
 }
 
 /* Definindo as configurações de títulos e paragrafo */
-h1{
+h1 {
     color: var(--white);
     font-size: 2rem;
     font-weight: 700;
 }
 
-h2{
+h2 {
     padding: 1rem;
     color: var(--black-800);
     font-size: 1.5rem;
@@ -46,7 +71,7 @@ h2{
     text-align: left;
 }
 
-h3{
+h3 {
     padding: 1rem;
     color: var(--white);
     font-size: 1.25rem;
@@ -54,7 +79,7 @@ h3{
     text-align: center;
 }
 
-p{
+p {
     font-size: 1rem;
     line-height: 1.5rem;
     text-align: justify;
@@ -74,75 +99,82 @@ p{
     justify-content: flex-start;
 }
 
- /* Estilização da Seção Header */
- #header_content {
+/* Estilização da Seção Header */
+#header_content {
     height: 80px;
-    position: sticky; 
-    top: 0; 
-    width: 100%; 
+    position: sticky;
+    top: 0;
+    width: 100%;
     justify-content: space-between;
     padding: 24px;
-    background-color: var(--purple-800);
-    border-bottom: 1px solid var(--purple-500);
+    background-color: var(--dark-green);
+    border-bottom: 1px solid var(--light-green);
 }
- 
- #menu li {
+
+#menu li {
     display: inline;
     padding: 1rem;
- }
- 
- #menu li a {
+}
+
+#menu li a {
     text-decoration: none;
     color: var(--white);
     font-size: 20px;
- }
- 
- #menu li a:hover {
-    color: var(--purple-200);
+}
+
+#menu li a:hover {
+    color: var(--gray-200);
     text-decoration: underline;
- }
+}
 
-  /* Estilização da Seção About */
+/* Estilização da Seção About */
 
-  #about{
+#about {
     flex-direction: column;
     margin: 2rem auto;
     width: 90%;
- }
+}
 
-#conteudo{
+#conteudo {
     flex-direction: row;
     gap: 2rem;
 
 }
 
-.img_profile{
-    width: 200px;
+.img_profile {
+    border-radius: 50%; 
 }
+
+.no-marker {
+    list-style: none;
+   
+  }
+  
 
 /* Estilização da Seção Video */
 
-#video{
+#video {
     flex-direction: column;
     margin: 2rem auto;
     width: 90%;
- }
 
- /* Estilização da Seção Footer */
+}
 
-footer{
+/* Estilização da Seção Footer */
+
+footer {
     flex-direction: column;
     margin: 0;
     padding: 2rem;
     color: var(--white);
-    background-color: var(--purple-500);
+    background-color: var(--dark-green);
     font-weight: bold;
     text-align: center;
 }
 
 #redes_sociais {
     display: flex;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
     margin: 1rem 0 0 0;
     width: 320px;
 }
@@ -150,33 +182,19 @@ footer{
 .social_icon {
     width: 4rem;
     height: 4rem;
-    filter: brightness(0) 
-            saturate(100%) 
-            invert(100%) 
-            sepia(0%) 
-            saturate(7457%) 
-            hue-rotate(23deg) 
-            brightness(95%) 
-            contrast(87%);
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7457%) hue-rotate(23deg) brightness(95%) contrast(87%);
 }
 
-.social_icon:hover {  
-    filter: brightness(0) 
-            saturate(100%) 
-            invert(65%) 
-            sepia(59%) 
-            saturate(2437%) 
-            hue-rotate(213deg) 
-            brightness(86%) 
-            contrast(88%);
+.social_icon:hover {
+    filter: brightness(0) saturate(100%) invert(65%) sepia(59%) saturate(2437%) hue-rotate(120deg) brightness(86%) contrast(88%);
 }
 
- /*Estilização da Página de Contato*/
- 
- #contact {
+/*Estilização da Página de Contato*/
+
+#contact {
     flex-direction: row;
     gap: 2rem;
- }
+}
 
 form {
     display: flex;
@@ -184,7 +202,7 @@ form {
     width: 480px;
     margin: 2rem 0;
     padding: 1.5rem;
-    border: none;
+    border:none;
 }
 
 form label {
@@ -198,7 +216,7 @@ textarea {
     margin: 0.5rem 0 1rem;
     padding: 0.5rem;
     border-radius: 1.25rem;
-    border: none;
+    border: 1px solid #1b1c1d;
     width: 100%;
     font-size: 1rem;
 }
@@ -208,7 +226,7 @@ textarea {
     height: 5rem;
 }
 
-form span{
+form span {
     margin: 0 0 0.5rem 0.75rem;
     font-size: 0.75rem;
     line-height: 1rem;
@@ -218,8 +236,8 @@ form span{
 form button {
     text-align: center;
     padding: 0.75rem 2rem;
-    background: var(--purple-800);
-    border: 1px solid var(--purple-500);
+    background: var(--light-green);
+    border: 1px solid var(--light-green);
     color: var(--white);
     border-radius: 0.75rem;
     font-weight: 700;
@@ -227,17 +245,17 @@ form button {
 }
 
 form button:hover {
-    background: var(--purple-500);
+    background: var(--dark-green);
 }
 
 /* Estilização do Mapa */
-#mapa{
+#mapa {
     width: 480px;
     flex-direction: column;
     gap: 3rem;
 }
 
-#endereco > p{
+#endereco>p {
     font-size: 1rem;
     text-align: justify;
     font-weight: 600;
