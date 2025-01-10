@@ -44,8 +44,7 @@ Isso abrirá o site em seu navegador padrão, e você poderá visualizar e testa
 
 Este site está disponível publicamente através do **GitHub Pages**. Você pode acessar a versão online pelo link abaixo:
 
-- [Portfólio Pessoal](https://[Ninaraquel.github.io/fundamentos-web-portfolio](https://ninaraquel.github.io/fundamentos-web-portfolio/))
-
+- [Portfólio Pessoal](https://ninaraquel.github.io/fundamentos-web-portfolio/)
 ## Contribuindo
 
 Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir um **pull request**.
